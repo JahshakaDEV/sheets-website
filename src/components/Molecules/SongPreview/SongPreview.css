@@ -1,0 +1,20 @@
+.preview {
+    cursor: pointer;
+}
+
+.preview > a > img, .preview > img {
+    width: 30vw;
+    height: auto;
+    border-radius: 5px;
+}
+
+.preview__infos {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.preview__infos > p {
+    margin: 0;
+}

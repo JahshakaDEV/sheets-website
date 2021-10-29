@@ -1,0 +1,23 @@
+.overview {
+    display: flex;
+    flex-direction: column;
+}
+
+.overview__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 0 1 100%;
+}
+
+/**
+*
+* Smaller screen + Mobile
+*
+*/
+@media screen and (max-width: 1000px) {
+    .searchbar > input#songlist__search {
+        width: 60vw !important;
+    }
+}

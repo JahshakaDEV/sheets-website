@@ -1,0 +1,9 @@
+.show__difficulty {
+    display: flex;
+    flex-direction: row;
+}
+
+p.difficulty__star {
+    margin: 0;
+    padding: 0;
+}

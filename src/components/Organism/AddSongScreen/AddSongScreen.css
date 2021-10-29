@@ -1,0 +1,60 @@
+.addsong {
+    padding: 1vh 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addsong__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 3vh;
+    font-size: 20px;
+}
+
+#back__button {
+    position: absolute;
+    left: 3vw;
+    cursor: pointer;
+}
+
+.addsong__form {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.addsong__form > form > label > input {
+    font-size: 20px;
+    width: 35vw;
+    text-align: center;
+}
+
+.addsong__difficulty {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.addsong__difficulty > p {
+    cursor: pointer;
+    margin-top: 0;
+}
+
+.addsong__form > div {
+    display: flex;
+    justify-content: center;
+}
+
+.addsong__form > div > button {
+    font-size: 20px;
+    border-radius: 25px;
+    border: 1px solid gray;
+    padding: 7px 15px;
+    position: absolute;
+    bottom: 5vh;
+    cursor: pointer;
+}
+

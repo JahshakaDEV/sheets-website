@@ -1,0 +1,30 @@
+.songlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.songlist > table {
+    border-collapse: collapse;
+    text-align: left;
+    max-width: fit-content;
+    min-width: 90vw;
+}
+
+tr.songlist__row {
+    cursor: pointer;
+}
+
+
+/**
+*
+* Smaller screen + Mobile
+*
+*/
+@media screen and (max-width: 1000px) {
+    .songlist > table {
+        border-collapse: separate;
+        border-spacing: 0 1vh;
+    }
+}
+
