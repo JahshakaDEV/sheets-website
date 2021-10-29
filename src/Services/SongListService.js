@@ -4,6 +4,7 @@ function checkIfSongInList(song, songList) {
     if (index !== -1) {
         return index;
     } else {
+        // eslint-disable-next-line
         songList.map(songs => {
             if (songs.title === song.title && songs.interpret === song.interpret) {
                 index = songList.indexOf(songs);

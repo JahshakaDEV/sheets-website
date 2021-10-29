@@ -43,6 +43,7 @@ function Overview({songListProp}) {
             setSongListSearch(songListProp);
         }
         setSongListSearch(filteredSongList);
+        // eslint-disable-next-line
     }, [searchValue])
 
     useEffect(() => {
@@ -50,6 +51,7 @@ function Overview({songListProp}) {
             setSearchValue("");
             setSongListSearch(songListProp);
         }
+        // eslint-disable-next-line
     }, [selectedSong])
 
     if (showListView || showAddScreen) {

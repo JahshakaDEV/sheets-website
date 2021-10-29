@@ -32,6 +32,7 @@ function SongDisplay({songProp, setSelectedSong, setShowList, backToList}) {
         window.addEventListener('resize', handleResize);
         document.title = song.title + " - " + song.interpret;
         return () => window.removeEventListener('resize', handleResize);
+        // eslint-disable-next-line
     }, []);
 
     function getVideoIDs() {
@@ -93,10 +94,12 @@ function SongDisplay({songProp, setSelectedSong, setShowList, backToList}) {
 
     useEffect(() => {
         getVideoIDs();
+        // eslint-disable-next-line
     }, [])
 
     useEffect(() => {
         SongListService.changeFieldValue(song, "notes", notes);
+        // eslint-disable-next-line
     }, [notes])
 
     function validYTAdd() {
@@ -111,7 +114,7 @@ function SongDisplay({songProp, setSelectedSong, setShowList, backToList}) {
         SongListService.addLink(song, sheetsValue, "url");
     }
 
-
+    // eslint-disable-next-line
     const {height, width} = windowDimensions;
     let characters = 50;
     if (width < 1000) {
