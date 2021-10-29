@@ -13,6 +13,7 @@ function AllSongsOverview({
                           }) {
 
     let aFocus = searchValue != null && searchValue !== "";
+    document.title = "Sheet saver"
 
     return (
         <div className={"overview"}>

@@ -5,7 +5,7 @@ import SongPreview from "../../Molecules/SongPreview/SongPreview";
 
 function LandingPage({setSelectedSong, setShowList, setBackToList, setSearchValue}) {
 
-
+    document.title = "Sheet saver";
     return (
         <div className={"landingpage"}>
             <div className={"landingpage__header"}>

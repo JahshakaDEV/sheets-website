@@ -39,7 +39,7 @@ function Overview({songListProp}) {
                 return song.title.toLowerCase().match(localSearchValue) || song.interpret.toLowerCase().match(localSearchValue);
             }));
         } else {
-            filteredSongList = [...songListProp];
+            filteredSongList = songListProp;
             setSongListSearch(songListProp);
         }
         setSongListSearch(filteredSongList);

@@ -109,7 +109,6 @@ function SongDisplay({songProp, setSelectedSong, setShowList, backToList}) {
 
     function validURLAdd() {
         SongListService.addLink(song, sheetsValue, "url");
-        console.log("valid url sheets");
     }
 
 
