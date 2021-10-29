@@ -92,7 +92,6 @@ export const SongListService = {
 
     addLink: (song, link, type) => {
         let songList = SongListService.getIntialList();
-        console.log(song);
         let index = checkIfSongInList(song, songList);
         songList.splice(index, 1);
         if (index !== false) {
