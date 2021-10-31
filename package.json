@@ -2,7 +2,7 @@
   "name": "tutorial",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://jahshakadev.github.io/",
+  "homepage": "https://jahshakadev.github.io/sheets-website",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
